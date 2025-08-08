@@ -1,4 +1,5 @@
 🎬 CineVerse — Movie Discovery App
+
 CineVerse is a sleek, modern, and fully responsive web application for discovering movies.
 Built with React (Vite) and styled using Tailwind CSS, it lets you browse trending films, search for titles, and view detailed information in a stylish interactive modal — all powered by The Movie Database (TMDB) API.
 
@@ -7,7 +8,6 @@ Built with React (Vite) and styled using Tailwind CSS, it lets you browse trendi
 
 
 <img width="1886" height="857" alt="image" src="https://github.com/user-attachments/assets/2005b1c5-c422-4a75-997d-59d246c4b1b0" />
-
 
 
 ✨ Features
@@ -47,6 +47,7 @@ cd CineVerse
 
 # Install dependencies
 npm install
+
 3️⃣ Environment Variables
 
 Create a .env file in the root directory and add your TMDB API key:
@@ -61,24 +62,8 @@ npm run dev
 
 The app will be available at http://localhost:5173.
 
-📂 Project Structure
-
-CineVerse/
-├── public/            
-├── src/
-│   ├── components/       
-│   ├── pages/            
-│   ├── App.jsx           
-│   ├── main.jsx          
-│   └── styles/           
-├── .env                 
-├── package.json
-└── tailwind.config.js
 
 
 📜 License
 This project is licensed under the MIT License — feel free to use and modify it.
-
-⭐ Support
-If you like this project, consider giving it a ⭐ on GitHub!
 

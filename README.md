@@ -1,68 +1,84 @@
-🎬 CineVerse: A Movie Discovery App
-CineVerse is a sleek, modern, and fully responsive web application for discovering movies. Built with React and styled with Tailwind CSS, it allows users to browse popular movies, search for specific titles, and view detailed information in an interactive modal. The application fetches real-time data from The Movie Database (TMDB) API.
+🎬 CineVerse — Movie Discovery App
+CineVerse is a sleek, modern, and fully responsive web application for discovering movies.
+Built with React (Vite) and styled using Tailwind CSS, it lets you browse trending films, search for titles, and view detailed information in a stylish interactive modal — all powered by The Movie Database (TMDB) API.
 
-Live Demo: cine-verse-iota-seven.vercel.app
+🔗 Live Demo  
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-black?style=for-the-badge&logo=vercel)](https://cine-verse-iota-seven.vercel.app/)
 
-<img width="1895" height="861" alt="image" src="https://github.com/user-attachments/assets/5529d5a1-aa6d-4a38-a320-933b3859ca57" />
+
+<img width="1886" height="857" alt="image" src="https://github.com/user-attachments/assets/2005b1c5-c422-4a75-997d-59d246c4b1b0" />
 
 
-✨ Core Features
-Browse Popular Movies: See a list of movies that are currently popular.
 
-Search Functionality: Search for any movie by its title.
+✨ Features
+🎯 Browse Popular Movies – Instantly explore trending films updated in real-time.
 
-Interactive UI: A clean, dark-themed interface with smooth hover effects.
+🔍 Search Functionality – Find any movie by typing its title.
 
-Detailed Movie Modal: Click on any movie card to see more details, including a full synopsis, rating, and release date.
+🖤 Dark & Modern UI – Clean, minimal design with smooth hover animations.
 
-Responsive Design: Looks great on all devices, from mobile phones to desktop computers.
+ℹ️ Detailed Movie Modal – View synopsis, ratings, release dates, and more.
 
-Home Button: The "CineVerse" title acts as a home button to reset the view.
+📱 Fully Responsive – Perfect viewing experience on mobile, tablet, and desktop.
 
-🛠️ Technologies & Tools Used
-Frontend: React (with Vite)
+🏠 One-Click Home – Click the “CineVerse” title to return to the main page.
 
-Styling: Tailwind CSS
-
-API: The Movie Database (TMDB) API
-
-Icons: React Icons
-
-Deployment: Vercel
+🛠️ Tech Stack
+Technology	Usage
+React (Vite)	Frontend framework
+Tailwind CSS	Styling & responsive design
+TMDB API	Movie data source
+React Icons	Icons & UI elements
+Vercel	Deployment platform
 
 🚀 Getting Started
-To get a local copy up and running, follow these simple steps.
+Follow these steps to set up CineVerse locally:
 
-Prerequisites
-You need to have Node.js and npm installed on your machine.
+1️⃣ Prerequisites
+Install Node.js (v16+ recommended)
 
-Node.js
+2️⃣ Installation
 
-Installation
-Clone the repository
+# Clone the repository
+git clone (https://github.com/singh-himanshu3/CineVerse.git)
 
-git clone https://github.com/singh-himanshu3/CineVerse.git
+# Navigate into the project folder
+cd CineVerse
 
-Navigate into the project directory
-
-cd your-repo-name
-
-Install NPM packages
-
+# Install dependencies
 npm install
+3️⃣ Environment Variables
 
-Set up your environment variables
-
-Create a .env file in the root of your project.
-
-Get a free API key from The Movie Database (TMDB).
-
-Add your API key to the .env file:
+Create a .env file in the root directory and add your TMDB API key:
 
 VITE_TMDB_API_KEY=YOUR_API_KEY_HERE
 
-Run the development server
+Get your free API key from TMDB.
+
+4️⃣ Run the Development Server
 
 npm run dev
 
-The application will be available at http://localhost:5173 (or another port if 5173 is busy).
+The app will be available at http://localhost:5173.
+
+📂 Project Structure
+
+CineVerse/
+├── public/            
+├── src/
+│   ├── components/       
+│   ├── pages/            
+│   ├── App.jsx           
+│   ├── main.jsx          
+│   └── styles/           
+├── .env                 
+├── package.json
+└── tailwind.config.js
+
+
+📜 License
+This project is licensed under the MIT License — feel free to use and modify it.
+
+⭐ Support
+If you like this project, consider giving it a ⭐ on GitHub!
+
